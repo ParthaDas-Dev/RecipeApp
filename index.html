@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+       <title>Recipe App</title>
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+       <link rel="stylesheet" href="./css/style.css">
+
+  
+  </head>
+  <body>
+  <main>
+      <img class="img1" src="./images/design1.svg" alt="design1">
+      <img class="img2" src="./images/design2.svg" alt="design2">
+      <div class="container-fluid ">
+          <div class="row">
+              <div class="col-sm-12 col-md-6 pl-4 p-2">
+                  <h1 class="text-left main-heading1 ">Recipe & Food</h1>
+              </div>
+
+              <div class="col-sm-12 col-md-6  p-3 pl-5 links">
+               <div class="row row1">
+                   <div class="col-sm-12 col-md-4 text-center">
+                    <h3 class="text-light" style="padding:2rem;"><a href="#!" class="text-white">HOME</a></h3>
+                   </div>
+                   <div class="col-sm-12   col-md-4 text-center">
+                    <h3 class="text-light" style="padding:2rem;"><a href="#!" class="text-white ">RECIPES</a></h3>
+                   </div>
+                   <div class="col-sm-12  col-md-4 text-center ">
+                    <h3 class="text-light" style="padding:2rem;"><a href="#!" class="text-white">ABOUT</a></h3>
+                   </div>
+               </div>
+            </div>
+          </div>
+      </div>
+
+      <div class="container-fluid text-left">
+          <div class="row m-4">
+              <div class="col-sm-12 heading2">
+                  <h3>Get Any <span>Recipe</span> <br>
+                    & <span>Food</span> Ingredients</h3>
+              </div>
+          </div>
+      </div>
+
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col-sm-12 col-md-6 mt-1 w-100">
+                  <img class="img3" src="./images/pasta.png" alt="pasta">
+              </div>
+
+              <div class="col-sm-12 col-md-6 mt-5 pt-5 w-100 explore">
+                <h5 class="pt-5 heading3">Search For Your Favourite Food & <br>
+                    Get The Right RECIPE For You</h5>
+                    <div class="row">
+                        <div class="col-sm-12  cta">
+                            <button><a href="#user-input">EXPLORE NOW</a></button>
+                        </div>
+                    </div>
+            </div>
+            
+          </div>
+        
+      </div>
+      <section class="sec1" id="sec1">
+      <form class=" container-fluid">
+        <h2 class="heading4 pl-3">SEARCH FOR <span> RECIPES</span> OR <span>FOOD</span> </h2>
+        <div class="  text-center search-sec">
+            <img src="./images/search.svg" alt="Search">
+            <input id="user-input" type="text" autocomplete="off" placeholder="SEARCH FOR ANY FOOD OR RECIPE" onfocus="this.placeholder = ''" onblur="this.placeholder = 'SEARCH FOR ANY FOOD OR RECIPE'"><button type="submit" id="btn1">SEARCH</button>
+        </div>
+    </form>
+   <div class="container-fluid ">
+       <div class="row  text-center" id="row">
+          
+          
+
+  
+       </div>
+      
+    </section>
+    <h4 class="text-center mr-auto ml-auto mb-5"><button  id="Get-more" type="button"> <a class="text-white" href="https://www.edamam.com/" target="_blank"> MORE RECIPES</a></button></h4>
+
+  
+  </main>
+  <div class="footer">
+        <h4 class="text-white text-center p-3">Data Provided By edamam</h4>
+        <h6 class="text-light text-center p-4">Copyright ParthaDas-Dev</h6>
+        
+</div>
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    
+  </body>
+</html>
